@@ -16,33 +16,33 @@
 **입력**
 
 경주할 자동차 이름(이름은 쉼표(,) 기준으로 구분)
-'''
+```
 pobi,woni,jun
-'''
+```
 
 시도할 횟수
-'''
+```
 5
-'''
+```
 
 **출력**
 
 차수별 실행 결과
-'''
+```
 pobi : --
 woni : ----
 jun : ---
-'''
+```
 
 단독 우승자 안내 문구
-'''
+```
 최종 우승자 : pobi
-'''
+```
 
 공동 우승자 안내 문구
-'''
+```
 최종 우승자 : pobi, jun
-'''
+```
 
 **프로그래밍 요구 사항 1**
 
@@ -70,6 +70,6 @@ Random 값 추출은 camp.nextstep.edu.missionutils.Randoms의 pickNumberInRange
 사용자가 입력하는 값은 camp.nextstep.edu.missionutils.Console의 readLine()을 활용한다.
 
 사용 예시) 0에서 9까지의 정수 중 한 개의 정수 반환
-'''
+```
 Randoms.pickNumberInRange(0, 9);
-'''
+```
